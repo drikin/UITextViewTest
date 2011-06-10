@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D75811D013A1F7A300BE0447 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D75811CF13A1F7A300BE0447 /* UIKit.framework */; };
+		D75811D213A1F7A300BE0447 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D75811D113A1F7A300BE0447 /* Foundation.framework */; };
+		D75811D413A1F7A300BE0447 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D75811D313A1F7A300BE0447 /* CoreGraphics.framework */; };
+		D75811DA13A1F7A300BE0447 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D75811D813A1F7A300BE0447 /* InfoPlist.strings */; };
+		D75811DC13A1F7A300BE0447 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D75811DB13A1F7A300BE0447 /* main.m */; };
+		D75811E013A1F7A300BE0447 /* UITextViewTest43AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D75811DF13A1F7A300BE0447 /* UITextViewTest43AppDelegate.m */; };
+		D75811E213A1F7A300BE0447 /* UITextViewTest43ViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = D75811E113A1F7A300BE0447 /* UITextViewTest43ViewController.h */; };
+		D75811E413A1F7A300BE0447 /* UITextViewTest43ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75811E313A1F7A300BE0447 /* UITextViewTest43ViewController.m */; };
+		D75811E713A1F7A300BE0447 /* UITextViewTest43ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D75811E513A1F7A300BE0447 /* UITextViewTest43ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D75811CB13A1F7A300BE0447 /* UITextViewTest43.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITextViewTest43.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75811CF13A1F7A300BE0447 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D75811D113A1F7A300BE0447 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D75811D313A1F7A300BE0447 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D75811D713A1F7A300BE0447 /* UITextViewTest43-Info.plist */ = {isa = PBXFileReference; path = "UITextViewTest43-Info.plist"; sourceTree = "<group>"; };
+		D75811D913A1F7A300BE0447 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D75811DB13A1F7A300BE0447 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D75811DD13A1F7A300BE0447 /* UITextViewTest43-Prefix.pch */ = {isa = PBXFileReference; path = "UITextViewTest43-Prefix.pch"; sourceTree = "<group>"; };
+		D75811DE13A1F7A300BE0447 /* UITextViewTest43AppDelegate.h */ = {isa = PBXFileReference; path = UITextViewTest43AppDelegate.h; sourceTree = "<group>"; };
+		D75811DF13A1F7A300BE0447 /* UITextViewTest43AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextViewTest43AppDelegate.m; sourceTree = "<group>"; };
+		D75811E113A1F7A300BE0447 /* UITextViewTest43ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITextViewTest43ViewController.h; sourceTree = "<group>"; };
+		D75811E313A1F7A300BE0447 /* UITextViewTest43ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextViewTest43ViewController.m; sourceTree = "<group>"; };
+		D75811E613A1F7A300BE0447 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UITextViewTest43ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D75811C813A1F7A300BE0447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75811D013A1F7A300BE0447 /* UIKit.framework in Frameworks */,
+				D75811D213A1F7A300BE0447 /* Foundation.framework in Frameworks */,
+				D75811D413A1F7A300BE0447 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D75811C013A1F7A300BE0447 = {
+			isa = PBXGroup;
+			children = (
+				D75811D513A1F7A300BE0447 /* UITextViewTest43 */,
+				D75811CE13A1F7A300BE0447 /* Frameworks */,
+				D75811CC13A1F7A300BE0447 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D75811CC13A1F7A300BE0447 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D75811CB13A1F7A300BE0447 /* UITextViewTest43.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D75811CE13A1F7A300BE0447 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D75811CF13A1F7A300BE0447 /* UIKit.framework */,
+				D75811D113A1F7A300BE0447 /* Foundation.framework */,
+				D75811D313A1F7A300BE0447 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D75811D513A1F7A300BE0447 /* UITextViewTest43 */ = {
+			isa = PBXGroup;
+			children = (
+				D75811DE13A1F7A300BE0447 /* UITextViewTest43AppDelegate.h */,
+				D75811DF13A1F7A300BE0447 /* UITextViewTest43AppDelegate.m */,
+				D75811E113A1F7A300BE0447 /* UITextViewTest43ViewController.h */,
+				D75811E313A1F7A300BE0447 /* UITextViewTest43ViewController.m */,
+				D75811E513A1F7A300BE0447 /* UITextViewTest43ViewController.xib */,
+				D75811D613A1F7A300BE0447 /* Supporting Files */,
+			);
+			path = UITextViewTest43;
+			sourceTree = "<group>";
+		};
+		D75811D613A1F7A300BE0447 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D75811D713A1F7A300BE0447 /* UITextViewTest43-Info.plist */,
+				D75811D813A1F7A300BE0447 /* InfoPlist.strings */,
+				D75811DB13A1F7A300BE0447 /* main.m */,
+				D75811DD13A1F7A300BE0447 /* UITextViewTest43-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D75811CA13A1F7A300BE0447 /* UITextViewTest43 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D75811EA13A1F7A300BE0447 /* Build configuration list for PBXNativeTarget "UITextViewTest43" */;
+			buildPhases = (
+				D75811C713A1F7A300BE0447 /* Sources */,
+				D75811C813A1F7A300BE0447 /* Frameworks */,
+				D75811C913A1F7A300BE0447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITextViewTest43;
+			productName = UITextViewTest43;
+			productReference = D75811CB13A1F7A300BE0447 /* UITextViewTest43.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D75811C213A1F7A300BE0447 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D75811C513A1F7A300BE0447 /* Build configuration list for PBXProject "UITextViewTest43" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D75811C013A1F7A300BE0447;
+			productRefGroup = D75811CC13A1F7A300BE0447 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D75811CA13A1F7A300BE0447 /* UITextViewTest43 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D75811C913A1F7A300BE0447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75811DA13A1F7A300BE0447 /* InfoPlist.strings in Resources */,
+				D75811E213A1F7A300BE0447 /* UITextViewTest43ViewController.h in Resources */,
+				D75811E713A1F7A300BE0447 /* UITextViewTest43ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D75811C713A1F7A300BE0447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75811DC13A1F7A300BE0447 /* main.m in Sources */,
+				D75811E013A1F7A300BE0447 /* UITextViewTest43AppDelegate.m in Sources */,
+				D75811E413A1F7A300BE0447 /* UITextViewTest43ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D75811D813A1F7A300BE0447 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D75811D913A1F7A300BE0447 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D75811E513A1F7A300BE0447 /* UITextViewTest43ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D75811E613A1F7A300BE0447 /* en */,
+			);
+			name = UITextViewTest43ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D75811E813A1F7A300BE0447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D75811E913A1F7A300BE0447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D75811EB13A1F7A300BE0447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITextViewTest43/UITextViewTest43-Prefix.pch";
+				INFOPLIST_FILE = "UITextViewTest43/UITextViewTest43-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D75811EC13A1F7A300BE0447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITextViewTest43/UITextViewTest43-Prefix.pch";
+				INFOPLIST_FILE = "UITextViewTest43/UITextViewTest43-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D75811C513A1F7A300BE0447 /* Build configuration list for PBXProject "UITextViewTest43" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75811E813A1F7A300BE0447 /* Debug */,
+				D75811E913A1F7A300BE0447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D75811EA13A1F7A300BE0447 /* Build configuration list for PBXNativeTarget "UITextViewTest43" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75811EB13A1F7A300BE0447 /* Debug */,
+				D75811EC13A1F7A300BE0447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D75811C213A1F7A300BE0447 /* Project object */;
+}
