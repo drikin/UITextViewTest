@@ -23,11 +23,11 @@
 		D75811CF13A1F7A300BE0447 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D75811D113A1F7A300BE0447 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D75811D313A1F7A300BE0447 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D75811D713A1F7A300BE0447 /* UITextViewTest43-Info.plist */ = {isa = PBXFileReference; path = "UITextViewTest43-Info.plist"; sourceTree = "<group>"; };
+		D75811D713A1F7A300BE0447 /* UITextViewTest43-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITextViewTest43-Info.plist"; sourceTree = "<group>"; };
 		D75811D913A1F7A300BE0447 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D75811DB13A1F7A300BE0447 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D75811DD13A1F7A300BE0447 /* UITextViewTest43-Prefix.pch */ = {isa = PBXFileReference; path = "UITextViewTest43-Prefix.pch"; sourceTree = "<group>"; };
-		D75811DE13A1F7A300BE0447 /* UITextViewTest43AppDelegate.h */ = {isa = PBXFileReference; path = UITextViewTest43AppDelegate.h; sourceTree = "<group>"; };
+		D75811DD13A1F7A300BE0447 /* UITextViewTest43-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextViewTest43-Prefix.pch"; sourceTree = "<group>"; };
+		D75811DE13A1F7A300BE0447 /* UITextViewTest43AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITextViewTest43AppDelegate.h; sourceTree = "<group>"; };
 		D75811DF13A1F7A300BE0447 /* UITextViewTest43AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextViewTest43AppDelegate.m; sourceTree = "<group>"; };
 		D75811E113A1F7A300BE0447 /* UITextViewTest43ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITextViewTest43ViewController.h; sourceTree = "<group>"; };
 		D75811E313A1F7A300BE0447 /* UITextViewTest43ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextViewTest43ViewController.m; sourceTree = "<group>"; };
@@ -240,6 +240,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UITextViewTest43/UITextViewTest43-Prefix.pch";
 				INFOPLIST_FILE = "UITextViewTest43/UITextViewTest43-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -251,6 +252,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UITextViewTest43/UITextViewTest43-Prefix.pch";
 				INFOPLIST_FILE = "UITextViewTest43/UITextViewTest43-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
